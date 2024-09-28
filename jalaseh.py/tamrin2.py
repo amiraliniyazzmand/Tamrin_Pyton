@@ -1,25 +1,21 @@
 
 
-
-print("salam bh barnamh hads adad khosh amadid\nbayad adadi kh barnamh antkhab krdh ra hads bzani lotfa adad vard knid:)")
 import random
 adad = random.randint(1,100)
 while True:
-    hads_adad = input("adad byn 1 ta 100 vard knid:")
+    hads_adad = input(" yk adad az 1 ta 100 antkhab knid : ")
     try:
-        hads_adad = int(hads_adad)
+         hads_adad = int(hads_adad)
     except ValueError:
-        print("adad bh harf vard nakonid")
+        print("adad sahih vard knid")
         continue
     if hads_adad < 1 or hads_adad >100:
-        print("adad bayd byn 1 ta 100 bashad")
+        print("adad az 1 ta 100 bashad")
         continue
     if hads_adad == adad:
-        print("afarin adad dorst ast")
+        print("afarin drst peyda kardi")
         break
     elif hads_adad <= adad:
-        print("adad bzrg tr ast")
+        print("adad bishtar")
     elif hads_adad >= adad:
-        print("adad kochak tr ast")
-
-print("payan")
+        print("adad km tar")
