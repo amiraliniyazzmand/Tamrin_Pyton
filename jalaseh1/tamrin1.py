@@ -1,5 +1,5 @@
 try:
-    age1 = int(input("sen khod ra vard knid"))
+    age1 = int(input("sen khod ra vard knid :"))
     if age1 >=18:
         print("nmitvani ray bdi")
     else:
