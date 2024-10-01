@@ -1,3 +1,7 @@
+print("salam dr ainja ak rabth riazi dr list ast adad ba adad badi jam misheh adad svm(3) ra misazd:)")
+
+
+
 def fibonachi(adad):
     if adad == 1 or adad == 2:
         return 1
