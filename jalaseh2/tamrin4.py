@@ -1,4 +1,4 @@
-print("agar benvisid 'next' be marhale bad")
+print("agar mikhahi bri badi benvisid 'end' ")
 namekala = {}
 def kharidvasilh():
     while True:
