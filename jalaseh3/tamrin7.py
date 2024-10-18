@@ -1,3 +1,5 @@
+print("agar mikhahi tavan nshan dahad print kn (tavan)")
+
 list_adad = []
 tavan= lambda adad : adad ** 2
 while True :
@@ -13,4 +15,4 @@ while True :
 
         payani = map( tavan , list_adad)
     payani = list(payani)
-    print(f"Javab Tavan 2 : {payani}")
+print(f"Javab Tavan 2 : {payani}")

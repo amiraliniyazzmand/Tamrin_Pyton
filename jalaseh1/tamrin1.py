@@ -1,7 +1,9 @@
 try:
     age1 = int(input("sen khod ra vard knid :"))
     if age1 >=18:
-        print("nmitvani ray bdi")
+        print("mitvani ray bdi")
+    if age1 <=1:
+        print("payyn ast")
     else:
         print("nmitvani ray bdi")
 except ValueError:

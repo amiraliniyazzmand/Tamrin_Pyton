@@ -5,6 +5,12 @@ while True:
     try:
         tol = int(input("tol ra bnvisid : "))
         arz = int(input("arz ra bnvisid : "))
-        MohitMasahat(tol, arz)
+        if arz >=tol:
+            print("arz bishtar az tol ast")
+        elif tol <=0 and arz:
+            print("adad bala 0 bnvis-")
+        else:
+            MohitMasahat(tol, arz)
+
     except ValueError:
         print("adad sahih vard knid")
