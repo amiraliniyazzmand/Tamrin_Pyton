@@ -28,5 +28,4 @@ for ch in range(adadtapel):
         else:
             tapel=tuple(tapellist)
             listtapel.append(tapel[1])
-        print("list azae 2 hr tapel",listtapel)
-        break
+    print("list azae 2 hr tapel",listtapel)
