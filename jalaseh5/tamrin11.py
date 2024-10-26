@@ -2,7 +2,7 @@
 while True:
 
 
-    index_text = input("address file ra vared konid (: :")
+    index_text = input("adrs file ra vared konid (: :")
 
 
     try:
@@ -12,7 +12,7 @@ while True:
 
             break
     except FileNotFoundError:
-        print("[ lotfan addres file ra vared konid  ]")
+        print("lotfan adrs ra vared konid  ")
 
 
         continue
@@ -65,7 +65,7 @@ with open("report.txt", "w", encoding='utf-8') as report:
                  
                  f"tedad khat ha : {khatshmar(content)}")
     if output == 0:
-        report.write("[ kalame morede nazar yaft nashod! ]")
+        report.write(" kalame morede nazar yaft nashod ")
     else:
         report.write(f"Tedad Kalame morede nazar : {KalameYab(content, kalameyab)}")
 
