@@ -20,5 +20,5 @@ def khayam_pasgal(n):
         print("".join(str(x) for x in row))
 
 
-number = int(input("enter the numbor : "))
-khayam_pasgal(number)
+adad = int(input("adad ra vared konid : "))
+khayam_pasgal(adad)
