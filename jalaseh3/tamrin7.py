@@ -16,6 +16,6 @@ try:
             tavan(adad)
             payani = map (tavan,list_adad)
         payani=list(payani)
-    print(f"javab tavan 2: {payani}")
+    print(f"avab tavan 2: {payani}")
 except ValueError :
     print("adad sahih vard konid")
