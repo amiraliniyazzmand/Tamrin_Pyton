@@ -8,7 +8,7 @@ def khayam_pasgal(n):
 
 
         for j in range(1, i):
-            radif.append(mosalas[i-1][j-1] + mosalas[i-1][j])
+            radif.append(mosalas [i-1][j-1] + mosalas[i-1][j])
 
 
         radif.append(1)
